@@ -12,7 +12,7 @@ const myUsers = findUsers().then((users)=>{
     const find = users.map((user)=>{
         return {
             name: 'isko',
-            username: user.username,
+            username: user.username,   
             email: user.email
         };
         });
