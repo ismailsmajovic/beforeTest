@@ -52,7 +52,8 @@ const myCar ={
     },
    prosecnaStarost : function(){
         return this.predjenaKilometraza.marka1 + this.predjenaKilometraza.marka2 + this.predjenaKilometraza.marka3 / 3
-   },
+   }, 
+   
    napraviVS: function(){
         return [this.boje.boja1, this.boje.boja2];
    }
